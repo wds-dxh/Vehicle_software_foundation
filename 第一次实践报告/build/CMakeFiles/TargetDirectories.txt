@@ -1,0 +1,3 @@
+/home/ubuntu22/workspace/Vehicle_software_foundation/第一次实践报告/build/CMakeFiles/SmartCar.dir
+/home/ubuntu22/workspace/Vehicle_software_foundation/第一次实践报告/build/CMakeFiles/edit_cache.dir
+/home/ubuntu22/workspace/Vehicle_software_foundation/第一次实践报告/build/CMakeFiles/rebuild_cache.dir
