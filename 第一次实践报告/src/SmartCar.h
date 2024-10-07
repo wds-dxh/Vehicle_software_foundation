@@ -7,7 +7,7 @@
 class SmartCar {
 public:
     SmartCar(const std::string& car_id);
-    void assignStudent(const std::string& student_id, const std::string& student_name);
+    void assignStudent(const std::string& student_id, const std::string& student_name); //分配学生
     void displayInfo() const;
 
     static const std::string chassis_model;
