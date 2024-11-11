@@ -9,7 +9,7 @@ class LCD {
 public:
     LCD(const std::string& model);
     //默认构造函数
-    LCD() : model("Unknown") {}
+    LCD() : model("液晶显示屏") {}
     void setModel(const std::string& model);
     
     void print() const;

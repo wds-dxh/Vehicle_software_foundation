@@ -9,7 +9,7 @@ class Gyroscope {
 public:
     Gyroscope(const std::string& model);
     //默认构造函数
-    Gyroscope() : model("Unknown") {}
+    Gyroscope() : model("CH110") {}
     void setModel(const std::string& model);
     
     void print() const;

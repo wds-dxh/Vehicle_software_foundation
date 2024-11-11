@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ThirdPractice.dir/src/main.cpp.o CMakeFiles/ThirdPractice.dir/src/ObstaclePublisher.cpp.o CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.o -o ThirdPractice 

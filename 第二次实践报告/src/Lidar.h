@@ -9,7 +9,7 @@ class Lidar {
 public:
     Lidar(const std::string& model);
     //默认构造函数
-    Lidar() : model("Unknown") {}
+    Lidar() : model("RS-Helios-16p") {}
     void setModel(const std::string& model);
     
     void print() const;

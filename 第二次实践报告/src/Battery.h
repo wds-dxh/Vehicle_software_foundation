@@ -9,7 +9,7 @@ class Battery {
 public:
     Battery(const std::string& specification, int charge_time);
     //默认构造函数
-    Battery() : specification("Unknown"), charge_time(0) {}
+    Battery() : specification("24V/15Ah"), charge_time(0) {}
     void setSpecification(const std::string& specification);
     void setChargeTime(int charge_time);
     

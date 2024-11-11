@@ -1,7 +1,7 @@
-24V/15Ah 0
+Unknown 0
 智能小车编号: cqusn1000000009
-学生ID: d
-学生姓名: sad
+学生ID: da
+学生姓名: dsad
 底盘型号: 
 轴距: 0 mm
 轮距: 0 mm
