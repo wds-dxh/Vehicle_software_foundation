@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/ubuntu22/workspace/Vehicle_software_foundation/第三�
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ThirdPractice.dir/all
+all: CMakeFiles/ObstaclePublisher.dir/all
+all: CMakeFiles/ObstacleSubscriber.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ThirdPractice.dir/clean
+clean: CMakeFiles/ObstaclePublisher.dir/clean
+clean: CMakeFiles/ObstacleSubscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ThirdPractice.dir
+# Target rules for target CMakeFiles/ObstaclePublisher.dir
 
 # All Build rule for target.
-CMakeFiles/ThirdPractice.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles --progress-num=1,2,3,4 "Built target ThirdPractice"
-.PHONY : CMakeFiles/ThirdPractice.dir/all
+CMakeFiles/ObstaclePublisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles --progress-num=1,2,3 "Built target ObstaclePublisher"
+.PHONY : CMakeFiles/ObstaclePublisher.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ThirdPractice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ThirdPractice.dir/all
+CMakeFiles/ObstaclePublisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ObstaclePublisher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles 0
-.PHONY : CMakeFiles/ThirdPractice.dir/rule
+.PHONY : CMakeFiles/ObstaclePublisher.dir/rule
 
 # Convenience name for target.
-ThirdPractice: CMakeFiles/ThirdPractice.dir/rule
-.PHONY : ThirdPractice
+ObstaclePublisher: CMakeFiles/ObstaclePublisher.dir/rule
+.PHONY : ObstaclePublisher
 
 # clean rule for target.
-CMakeFiles/ThirdPractice.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/clean
-.PHONY : CMakeFiles/ThirdPractice.dir/clean
+CMakeFiles/ObstaclePublisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/clean
+.PHONY : CMakeFiles/ObstaclePublisher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ObstacleSubscriber.dir
+
+# All Build rule for target.
+CMakeFiles/ObstacleSubscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles --progress-num=4,5,6 "Built target ObstacleSubscriber"
+.PHONY : CMakeFiles/ObstacleSubscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ObstacleSubscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ObstacleSubscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/build/CMakeFiles 0
+.PHONY : CMakeFiles/ObstacleSubscriber.dir/rule
+
+# Convenience name for target.
+ObstacleSubscriber: CMakeFiles/ObstacleSubscriber.dir/rule
+.PHONY : ObstacleSubscriber
+
+# clean rule for target.
+CMakeFiles/ObstacleSubscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/clean
+.PHONY : CMakeFiles/ObstacleSubscriber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

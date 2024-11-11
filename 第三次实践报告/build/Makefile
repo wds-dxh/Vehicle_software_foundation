@@ -117,24 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ThirdPractice
+# Target rules for targets named ObstaclePublisher
 
 # Build rule for target.
-ThirdPractice: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThirdPractice
-.PHONY : ThirdPractice
+ObstaclePublisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ObstaclePublisher
+.PHONY : ObstaclePublisher
 
 # fast build rule for target.
-ThirdPractice/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/build
-.PHONY : ThirdPractice/fast
+ObstaclePublisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/build
+.PHONY : ObstaclePublisher/fast
+
+#=============================================================================
+# Target rules for targets named ObstacleSubscriber
+
+# Build rule for target.
+ObstacleSubscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ObstacleSubscriber
+.PHONY : ObstacleSubscriber
+
+# fast build rule for target.
+ObstacleSubscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/build
+.PHONY : ObstacleSubscriber/fast
 
 src/ObstaclePublisher.o: src/ObstaclePublisher.cpp.o
 .PHONY : src/ObstaclePublisher.o
 
 # target to build an object file
 src/ObstaclePublisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstaclePublisher.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/ObstaclePublisher.cpp.o
 .PHONY : src/ObstaclePublisher.cpp.o
 
 src/ObstaclePublisher.i: src/ObstaclePublisher.cpp.i
@@ -142,7 +155,7 @@ src/ObstaclePublisher.i: src/ObstaclePublisher.cpp.i
 
 # target to preprocess a source file
 src/ObstaclePublisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstaclePublisher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/ObstaclePublisher.cpp.i
 .PHONY : src/ObstaclePublisher.cpp.i
 
 src/ObstaclePublisher.s: src/ObstaclePublisher.cpp.s
@@ -150,7 +163,7 @@ src/ObstaclePublisher.s: src/ObstaclePublisher.cpp.s
 
 # target to generate assembly for a file
 src/ObstaclePublisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstaclePublisher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/ObstaclePublisher.cpp.s
 .PHONY : src/ObstaclePublisher.cpp.s
 
 src/ObstacleSubscriber.o: src/ObstacleSubscriber.cpp.o
@@ -158,7 +171,7 @@ src/ObstacleSubscriber.o: src/ObstacleSubscriber.cpp.o
 
 # target to build an object file
 src/ObstacleSubscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/ObstacleSubscriber.cpp.o
 .PHONY : src/ObstacleSubscriber.cpp.o
 
 src/ObstacleSubscriber.i: src/ObstacleSubscriber.cpp.i
@@ -166,7 +179,7 @@ src/ObstacleSubscriber.i: src/ObstacleSubscriber.cpp.i
 
 # target to preprocess a source file
 src/ObstacleSubscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/ObstacleSubscriber.cpp.i
 .PHONY : src/ObstacleSubscriber.cpp.i
 
 src/ObstacleSubscriber.s: src/ObstacleSubscriber.cpp.s
@@ -174,32 +187,56 @@ src/ObstacleSubscriber.s: src/ObstacleSubscriber.cpp.s
 
 # target to generate assembly for a file
 src/ObstacleSubscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/ObstacleSubscriber.cpp.s
 .PHONY : src/ObstacleSubscriber.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/publisher_main.o: src/publisher_main.cpp.o
+.PHONY : src/publisher_main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/publisher_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/publisher_main.cpp.o
+.PHONY : src/publisher_main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/publisher_main.i: src/publisher_main.cpp.i
+.PHONY : src/publisher_main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/publisher_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/publisher_main.cpp.i
+.PHONY : src/publisher_main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/publisher_main.s: src/publisher_main.cpp.s
+.PHONY : src/publisher_main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdPractice.dir/build.make CMakeFiles/ThirdPractice.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/publisher_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstaclePublisher.dir/build.make CMakeFiles/ObstaclePublisher.dir/src/publisher_main.cpp.s
+.PHONY : src/publisher_main.cpp.s
+
+src/subscriber_main.o: src/subscriber_main.cpp.o
+.PHONY : src/subscriber_main.o
+
+# target to build an object file
+src/subscriber_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/subscriber_main.cpp.o
+.PHONY : src/subscriber_main.cpp.o
+
+src/subscriber_main.i: src/subscriber_main.cpp.i
+.PHONY : src/subscriber_main.i
+
+# target to preprocess a source file
+src/subscriber_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/subscriber_main.cpp.i
+.PHONY : src/subscriber_main.cpp.i
+
+src/subscriber_main.s: src/subscriber_main.cpp.s
+.PHONY : src/subscriber_main.s
+
+# target to generate assembly for a file
+src/subscriber_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObstacleSubscriber.dir/build.make CMakeFiles/ObstacleSubscriber.dir/src/subscriber_main.cpp.s
+.PHONY : src/subscriber_main.cpp.s
 
 # Help Target
 help:
@@ -209,16 +246,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ThirdPractice"
+	@echo "... ObstaclePublisher"
+	@echo "... ObstacleSubscriber"
 	@echo "... src/ObstaclePublisher.o"
 	@echo "... src/ObstaclePublisher.i"
 	@echo "... src/ObstaclePublisher.s"
 	@echo "... src/ObstacleSubscriber.o"
 	@echo "... src/ObstacleSubscriber.i"
 	@echo "... src/ObstacleSubscriber.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/publisher_main.o"
+	@echo "... src/publisher_main.i"
+	@echo "... src/publisher_main.s"
+	@echo "... src/subscriber_main.o"
+	@echo "... src/subscriber_main.i"
+	@echo "... src/subscriber_main.s"
 .PHONY : help
 
 

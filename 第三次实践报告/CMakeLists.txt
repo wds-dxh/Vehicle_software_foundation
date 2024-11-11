@@ -6,10 +6,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(${PROJECT_SOURCE_DIR}/src)
 
-set(SOURCES
-    src/main.cpp
+set(PUBLISHER_SOURCES
     src/ObstaclePublisher.cpp
-    src/ObstacleSubscriber.cpp
+    src/publisher_main.cpp
 )
 
-add_executable(ThirdPractice ${SOURCES})
+set(SUBSCRIBER_SOURCES
+    src/ObstacleSubscriber.cpp
+    src/subscriber_main.cpp
+)
+
+add_executable(ObstaclePublisher ${PUBLISHER_SOURCES})
+add_executable(ObstacleSubscriber ${SUBSCRIBER_SOURCES})

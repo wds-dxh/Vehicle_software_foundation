@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ObstaclePublisher.dir/src/ObstaclePublisher.cpp.o CMakeFiles/ObstaclePublisher.dir/src/publisher_main.cpp.o -o ObstaclePublisher 

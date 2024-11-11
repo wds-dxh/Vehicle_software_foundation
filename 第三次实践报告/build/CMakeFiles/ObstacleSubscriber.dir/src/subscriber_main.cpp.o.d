@@ -1,5 +1,5 @@
-CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.o: \
- /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/src/ObstacleSubscriber.cpp \
+CMakeFiles/ObstacleSubscriber.dir/src/subscriber_main.cpp.o: \
+ /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/src/subscriber_main.cpp \
  /usr/include/stdc-predef.h \
  /home/ubuntu22/workspace/Vehicle_software_foundation/第三次实践报告/src/ObstacleSubscriber.h \
  /usr/include/c++/11/string \
@@ -148,4 +148,16 @@ CMakeFiles/ThirdPractice.dir/src/ObstacleSubscriber.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
+ /usr/include/c++/11/ratio /usr/include/c++/11/limits \
+ /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h
